@@ -24,8 +24,9 @@ The hardware consists of:
 ## Housing / Enclosure
 The housing is 3D printed using black PLA for the base and clear PLA for the diffusor. I also made different types with
 smaller diffusors or special diffusors.
-<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="25%"/>
-<img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="25%"/>
+
+<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="40%"/>
+<img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="40%"/>
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
