@@ -25,11 +25,9 @@ The hardware consists of:
 The housing is 3D printed using black PLA for the base and clear PLA for the diffusor. I also made different types with
 smaller diffusors or special diffusors.
 
-<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="30%"/>
-<img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="30%"/>
+<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="30%"/> <img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="30%"/>
   
-<img src="Documentation/LyncDisplayLight_DarthVader.jpg" alt="LyncDisplayLight with Darth Vader diffusor" width="30%"/>
-<img src="Documentation/LyncDisplayLight_CoreBlade.jpg" alt="LyncDisplayLight with Bass Guitar Amplifier diffusor" width="30%"/>
+<img src="Documentation/LyncDisplayLight_DarthVader.jpg" alt="LyncDisplayLight with Darth Vader diffusor" width="30%"/> <img src="Documentation/LyncDisplayLight_CoreBlade.jpg" alt="LyncDisplayLight with Bass Guitar Amplifier diffusor" width="30%"/>
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
