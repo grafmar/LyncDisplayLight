@@ -17,19 +17,17 @@ conversation. This is especially useful, if the monitor is locked. That's why I 
 
 ## Hardware
 The hardware consists of:
-* Wemos D1 mini
-* WS2801b board for Wemos D1 mini
-* 128x32 OLED display SSD1306 (soldered)
+* Wemos D1 mini (available on [Aliexpress](https://www.aliexpress.com/item/D1-mini-Mini-NodeMcu-4M-bytes-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-by/32644199530.html))
+* WS2801b board for Wemos D1 mini (available on [Aliexpress](https://www.aliexpress.com/item/WS2812B-RGB-expansion-board-for-D1-mini-BMP180/32806935855.html))
+* 128x32 OLED display SSD1306 (soldered) (available on [Aliexpress](https://www.aliexpress.com/item/0-91-Inch-128x32-IIC-I2C-White-Blue-OLED-LCD-Display-DIY-Module-SSD1306-Driver-IC/32879702750.html))
 
 ## Housing / Enclosure
 The housing is 3D printed using black PLA for the base and clear PLA for the diffusor. I also made different types with
 smaller diffusors or special diffusors.
 
-<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="30%"/>
-<img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="30%"/>
+<img src="Documentation/LyncDisplayLight_ActionWithoutCallerID_SmallDiffusor.jpg" alt="LyncDisplayLight with small diffusor" width="30%"/> <img src="Documentation/LyncDisplayLight_CollectionOfDiffusors.jpg" alt="Different diffusors" width="30%"/>
   
-<img src="Documentation/LyncDisplayLight_DarthVader.jpg" alt="LyncDisplayLight with Darth Vader diffusor" width="30%"/>
-<img src="Documentation/LyncDisplayLight_CoreBlade.jpg" alt="LyncDisplayLight with Bass Guitar Amplifier diffusor" width="30%"/>
+<img src="Documentation/LyncDisplayLight_DarthVader.jpg" alt="LyncDisplayLight with Darth Vader diffusor" width="30%"/> <img src="Documentation/LyncDisplayLight_CoreBlade.jpg" alt="LyncDisplayLight with Bass Guitar Amplifier diffusor" width="30%"/>
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
