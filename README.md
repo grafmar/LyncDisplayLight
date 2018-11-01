@@ -1,4 +1,4 @@
-# LyncDisplayLight
+	# LyncDisplayLight
 This device is just a simple RGB-LED with a display which can be controlled by the virtual serial port on its USB connection.
 In combination with the appropriate desktop application [Lync-Presence-Bridge](https://github.com/grafmar/Lync-presence-bridge)
 it shows the active Lync / Skype for Business state and in the case of a call or chat it displays the counterpart of the
@@ -10,8 +10,9 @@ conversation. This is especially useful, if the monitor is locked. That's why I 
 To control the LyncDisplayLight the specific protocol string followed by a new-line character (ASCII 0x0A)
 can be sent through the serial port at a speed of 115200 baud. The protocol string just a key-word
 followed by a colon and then the parameters:
+
 | Keyword | Parameters | Description |
-| :------ | :--------- | :---------- |
+| :--- | :--- | :--- |
 | rgb     | red[0..255], green[0..255], blue[0..255] | Set the color of the cube light |
 | callerid | string to display | Sets the Text on the Display. Send empty string to clear the display |
 
@@ -51,7 +52,7 @@ is 42x42mm it doesn't look square if the height is also 42mm. Therefore I change
 <img src="Documentation/LyncDisplayLight_DarthVader.jpg" alt="LyncDisplayLight with Darth Vader diffusor" width="30%"/> <img src="Documentation/LyncDisplayLight_CoreBlade.jpg" alt="LyncDisplayLight with Bass Guitar Amplifier diffusor" width="30%"/>
 
 ## Buildup
-A description how to build this device is available in the [documentation](Documentation\buildup.md).
+A description how to build this device is available in the [documentation](Documentation/buildup.md).
 
 ## Author
 [Marco Graf](https://github.com/grafmar)
