@@ -18,7 +18,7 @@ followed by a colon and then the parameters:
 
 So to set the Color to yellow (red=255, green=255, blue=0) just set the string: `rgb:255,255,0\n`
 
-To set a display text send the string: `callerid:John Doe`
+To set a display text send the string: `callerid:John Doe\n`
 
 ## SW-Requirements
 * [Arduino IDE](https://www.arduino.cc/en/main/software)
@@ -39,6 +39,7 @@ The hardware consists of:
 The WS2812b board stacks just on top of the Wemos D1 mini. The connector of the LED has to be
 unsoldered and then the OLED has to be soldered directly using wires. I wired it up to the
 WS2812b board.
+
 <img src="Documentation/Buildup_images/LyncDisplayLight_Wiring.png" alt="Wiring of the Lync Display Light" width="30%"/> 
 
 ## Housing / Enclosure
