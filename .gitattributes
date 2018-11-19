@@ -4,6 +4,14 @@
 * text=auto
 
 ###############################################################################
+# Settings for github language detection.
+###############################################################################
+*.ino linguist-language=C++
+*.h linguist-language=C++
+Documentation/* linguist-documentation
+housing/* linguist-documentation
+
+###############################################################################
 # Set default behavior for command prompt diff.
 #
 # This is need for earlier builds of msysgit that does not have it on by
