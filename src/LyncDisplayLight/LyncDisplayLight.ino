@@ -1,5 +1,6 @@
 #include <ESP8266WiFi.h>
 #include <Wire.h>
+#include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_NeoPixel.h>
@@ -11,7 +12,7 @@
 #define OLED_RESET  D5
 #define LED_PIN     D2
 
-Adafruit_SSD1306 display(OLED_RESET);
+Adafruit_SSD1306 display(128, 32, &Wire, OLED_RESET);
 Adafruit_NeoPixel ledPixel = Adafruit_NeoPixel(1, LED_PIN, NEO_GRB + NEO_KHZ800);
 String inData;
 
