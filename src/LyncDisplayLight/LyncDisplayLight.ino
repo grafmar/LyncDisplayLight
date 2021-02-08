@@ -67,7 +67,7 @@ void loop() {
         inData += recieved;
 
         // Process message when new line character is recieved
-        if (recieved == '\n') {
+        if ((recieved == '\n') || (recieved == '\r')) {
             if (inData.startsWith("rgb:")) {
                 lastUpdate = millis();
                 int ind;
