@@ -242,3 +242,4 @@ ModelManifest.xml
 .fake/
 /src/__vm
 /Documentation/orig_images
+/src/LyncDisplayLight/__vm
