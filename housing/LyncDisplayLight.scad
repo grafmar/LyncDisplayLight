@@ -8,6 +8,7 @@ wall=2;
 bottomHeight=18;
 $fs=.5;
 $fa=3;
+diffThick=2;
 
 /*
 translate([0,0,0.1]){color("PaleTurquoise",1){diffusor();}}
@@ -36,8 +37,8 @@ module diffusor() {
                 translate([offset,offset,bottomHeight+diffusorHeight-1]) {cylinder(r=rounding,h=1,center=false);}
             }}}
             hull() { for(a=[0:90:360]) { rotate([0,0,a]) {
-                translate([offset,offset,bottomHeight-1]) {cylinder(r=rounding-1,h=1,center=false);}
-                translate([offset,offset,bottomHeight-1+diffusorHeight-1]) {cylinder(r=rounding-1,h=1,center=false);}
+                translate([offset,offset,bottomHeight-1]) {cylinder(r=rounding-diffThick,h=1,center=false);}
+                translate([offset,offset,bottomHeight-1+diffusorHeight-1]) {cylinder(r=rounding-diffThick,h=1,center=false);}
             }}}
         }
         
