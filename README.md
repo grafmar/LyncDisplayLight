@@ -1,8 +1,13 @@
 # LyncDisplayLight
 This device is just a simple RGB-LED with a display which can be controlled by the virtual serial port on its USB connection.
+
 In combination with the appropriate desktop application [Lync-Presence-Bridge](https://github.com/grafmar/Lync-presence-bridge)
 it shows the active Lync / Skype for Business state and in the case of a call or chat it displays the counterpart of the
 conversation. This is especially useful, if the monitor is locked. That's why I implemented this device.
+
+With the time Lync or Skype for Business is no more state of the art and Microsoft introduced Teams. Therefore I implemented a
+the desktop application [PresenceBridge](https://github.com/grafmar/PresenceBridge) to cover that connectivity. Not all
+functionalities are implemented, yet, but at least the availability status is shown on the LED.
 
 <img src="Documentation/LyncDisplayLight_ActionWithCallerID_NormalDiffusor.jpg" alt="LyncDisplayLight in action" width="50%"/>
 
